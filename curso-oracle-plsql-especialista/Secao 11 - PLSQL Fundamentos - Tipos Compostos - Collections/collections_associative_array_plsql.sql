@@ -4,7 +4,7 @@ SET SERVEROUTPUT ON
 SET VERIFY OFF
 DECLARE
     TYPE Numero_Table_Type IS TABLE OF NUMBER(2)
-    INDEX BY BINARY_INTEGER;
+    INDEX BY BINARY_INTEGER; -- Type Associative Array
     Numero_Table Numero_Table_Type;
 BEGIN
 -- Armazena numeros de 1 a 10 em um associative array

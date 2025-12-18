@@ -14,7 +14,7 @@ BEGIN
     END LOOP;
     -- Programa faz uma serie de coisas..
     -- Le o Nested Table e imprime os números armazenados
-    FOR I IN 1..10
+    FOR i IN 1..10
     LOOP
         DBMS_OUTPUT.PUT_LINE('Associative Array: Indice = ' || TO_CHAR(i) || ', Valor = ' || TO_CHAR(Numero_Table(i)));  
     END LOOP;
