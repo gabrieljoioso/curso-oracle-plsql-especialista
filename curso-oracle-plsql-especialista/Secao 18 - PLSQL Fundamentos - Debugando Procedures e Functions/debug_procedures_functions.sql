@@ -1,9 +1,3 @@
---
--- Seção 18 - Debugando Procedures e Functions
---
--- Aula 1 - Debugando Procedures e Functions
---
-
 -- Debugando Procedures e Functions
 
 -- Edite a function FNC_CONSULTA_SALARIO_EMPREGADO
