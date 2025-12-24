@@ -1,8 +1,3 @@
---
--- Seção 19 - Criando Packages de Banco de Dados
---
--- Aula 2 - Criando o Package Specification 
---
 
 -- Criando o Package Specification 
 
@@ -19,7 +14,7 @@ IS
 	phire_date     IN DATE DEFAULT SYSDATE,
 	pjob_id        IN VARCHAR2,
 	pSALARY        IN NUMBER,
-	pCOMMICION_PCT IN NUMBER,
+	pCOMMISSION_PCT IN NUMBER,
 	pMANAGER_ID    IN NUMBER,
 	pDEPARTMENT_ID IN NUMBER);
 

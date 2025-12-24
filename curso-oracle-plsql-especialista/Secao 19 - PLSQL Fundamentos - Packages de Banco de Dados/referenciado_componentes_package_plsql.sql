@@ -1,8 +1,3 @@
---
--- Seção 19 - Criando Packages de Banco de Dados
---
--- Aula 4 - Referenciando Componentes de uma Package 
---
 
 -- Referenciando Componentes de uma Package 
 

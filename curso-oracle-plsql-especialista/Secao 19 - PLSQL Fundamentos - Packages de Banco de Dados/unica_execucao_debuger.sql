@@ -1,9 +1,3 @@
---
--- Seção 19 - Criando Packages de Banco de Dados
---
--- Aula 5 - Procedimento de uma unica execução na Seção
---
-
 -- Criando o Package Body
 
 -- Procedimento de uma unica execução na Seção
@@ -18,7 +12,7 @@ PROCEDURE PRC_INSERE_EMPREGADO
    phire_date     IN DATE DEFAULT SYSDATE,
    pjob_id        IN VARCHAR2,
    pSALARY        IN NUMBER,
-   pCOMMICION_PCT IN NUMBER,
+   pCOMMISSION_PCT IN NUMBER,
    pMANAGER_ID    IN NUMBER,
    pDEPARTMENT_ID IN NUMBER)
 IS 
@@ -49,7 +43,7 @@ BEGIN
     phire_date,
     pjob_id,
     psalary,
-    pcommicion_pct,
+    pcommission_pct,
     pmanager_id,
     pdepartment_id );
 EXCEPTION
