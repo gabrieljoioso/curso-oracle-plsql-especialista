@@ -1,8 +1,3 @@
---
--- Seção 23 - PL/SQL Avançado - Utilizando SYS_REFCURSOR
---
--- Aula 1 - Utilizando SYS_REFCURSOR
---
 
 -- Utilizando SYS_REFCURSOR
 
